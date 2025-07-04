@@ -1,8 +1,5 @@
 # Distributed Job Portal Microservices
 
-## Overview
-This project is a distributed job portal system designed to showcase advanced Java, microservices, and data structures/algorithms skills. It demonstrates how to build scalable, maintainable, and algorithmically sophisticated backend systems, similar to those used by top tech companies like Amazon.
-
 ## Features
 - **User Service:** User profile management with skill autocomplete (Trie data structure)
 - **Job Service:** Job postings, search by location/skills, urgent job queue (PriorityQueue)
