@@ -1,0 +1,13 @@
+server:
+  port: 8080
+zuul:
+  routes:
+    user-service:
+      path: /api/users/**
+      url: http://localhost:8081
+    job-service:
+      path: /api/jobs/**
+      url: http://localhost:8082
+    matching-service:
+      path: /api/matching/**
+      url: http://localhost:8083 
